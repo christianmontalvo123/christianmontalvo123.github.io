@@ -1,0 +1,56 @@
+.baner{
+	background-image: url("../img/fondo.jpeg");
+	background-size: 100%;
+	background-position: center center;
+	background-size: cover;
+	height: 490px;
+	text-align: center;
+	padding-top: 200px;
+	box-sizing: border-box;
+	font-size: 40px;
+}
+.baner div{
+	color: white;
+
+}
+.baner p{
+	color: white;
+	font-size: 15px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.centrado{
+text-align: center;
+margin-left: 300px;
+	margin-right: 300px;
+}
+.centrado div{
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+.logito3 li{
+	text-align: center;
+	display: inline-block;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 5%;
+}
+
+.logito3{
+	margin-top: 10%;
+	text-align: center;	
+	width: 90%;
+}
+.logito3 li div{
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
+.recorte{
+	margin-bottom: 5%;
+}
+.achicar{
+	width: 50%;
+	padding-left: 13%;
+}

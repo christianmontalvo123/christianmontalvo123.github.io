@@ -1,0 +1,79 @@
+.contacto-cont {
+	display: flex;
+	flex-direction: column;
+	background-image: url("../img/fondo.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	padding: 5% 0% 5% 0%;
+}
+
+.contacto-title {
+	color: white;
+	font-size: 40px;
+	font: bold;
+	align-self: center;
+	text-align: center;
+}
+
+.contacto {
+	display: flex;
+	background-color: transparent;
+	flex-direction: column;
+	width: 80%;
+	align-self: center;	
+}
+
+.data {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.datos {
+	display: flex;
+	margin-top: 10%;
+	margin-left: 10%;
+	padding-bottom: 1%;
+	padding-right: 5%;
+	width: 20rem;
+	background-color: transparent;
+	border-color: transparent;
+	border-bottom: solid;
+	border-width: 1px;
+	border-bottom-color: white;
+	font-size: 1.3rem;
+}
+
+.datos::placeholder {
+	color: white;
+}
+
+#comentarios {
+	display: flex;
+	flex-direction: column;
+	margin-top: 10%;
+	padding-bottom: 1%;
+	background-color: transparent;
+	border-color: transparent;
+	border-bottom: solid;
+	border-width: 1px;
+	border-bottom-color: white;
+	align-self: center;
+	font-size: 1.3rem;
+}
+
+#comentarios::placeholder {
+	color: white;
+}
+
+#send {
+	display: flex;
+	align-self: center;
+	background-color: #9e7c3a;
+	border: none;
+	color: white;
+	padding: 1% 5% 1% 5%;
+}

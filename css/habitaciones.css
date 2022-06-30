@@ -1,0 +1,78 @@
+.titulo2{
+
+	text-align: center;
+	margin-top: 50px;
+}	
+.titulo2 div{
+	text-align: center;
+	font-size: 50px;
+	color: rgb(153, 123, 60);
+}
+.titulo2 p{
+	text-align: center;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+.titulos-habitaciones{
+	height: 30rem;
+	background-image: url("../img/fondo.jpeg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	vertical-align: center;
+	padding-top: 160px;
+	box-sizing: border-box;
+	align-content: center;
+}
+
+.titulos-titulo{
+	color: white;
+	font-size: 40px;
+	font: bold;
+	text-align: center;
+}
+
+.titulos-habitaciones p {
+	color: white;
+	text-align: center;
+	font-size: 22px;
+	width: 510px;
+	margin-left: 30%;
+}
+
+.hoteles {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 90%;
+	margin: 3%;
+}
+
+.hotel {
+	align-self: center;
+	display: flex;
+	flex: auto;
+}
+
+.foto-hotel {
+	text-align: center;
+	width: 14rem;
+	height: 14rem;
+	overflow: hidden;
+}
+
+.hotel-data {
+	display: flex;
+	flex-direction: column;
+	margin-left: 3rem;
+}
+
+.frase-hotel {
+	padding-top: 10%;
+	font-size: 30px;
+	font: bold;
+}
